@@ -49,3 +49,24 @@ if (siswa = 34) {
 } else {
   console.log("Jumlah siswa bukan 34")
 }
+
+let sukaMakanDaging = true
+
+if (sukaMakanDaging) {
+  console.log("Suka makan daging")
+} else {
+  console.log("Tidak suka makan daging")
+}
+if (!sukaMakanDaging) {
+  console.log("Tidak suka makan daging")
+} else {
+  console.log("Suka makan daging")
+}
+
+let usia = 11
+
+if (usia > 17) {
+  console.log("Anda bisa membuat KTP")
+} else if (usia <= 17) {
+  console.log("Anda belum bisa membuat KTP")
+}

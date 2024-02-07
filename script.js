@@ -86,3 +86,23 @@ while (angka <= 5) {
   console.log("hai" + angka)
   angka++
 }
+
+//infinite loop
+// let infinite = 1
+
+// while (true) {
+//   console.log(infinite)
+//   infinite++
+// }
+
+for (let i = 0; i < 20; i++) {
+  if (i % 2 == 0) {
+    continue
+  } 
+
+  console.log(i)
+
+  if (i == 15) {
+    break;
+  }
+}

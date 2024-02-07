@@ -30,3 +30,11 @@ console.log(x)
 let y = 1
 y++
 console.log(y)
+
+console.log(8 > 9)
+console.log(10 > 9)
+console.log(10 == 9)
+console.log(10 <= 9)
+console.log(9 <= 9)
+
+// confirm("oke?")git s

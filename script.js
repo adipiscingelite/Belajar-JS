@@ -37,4 +37,7 @@ console.log(10 == 9)
 console.log(10 <= 9)
 console.log(9 <= 9)
 
-// confirm("oke?")git s
+confirm("oke?")
+masukkan_nama = prompt("masukkan nama")
+
+console.log(masukkan_nama)

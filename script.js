@@ -42,6 +42,7 @@ console.log(9 <= 9)
 
 // console.log(masukkan_nama)
 
+// if else
 let siswa = 34
 
 if (siswa = 34) {
@@ -50,6 +51,7 @@ if (siswa = 34) {
   console.log("Jumlah siswa bukan 34")
 }
 
+// if else
 let sukaMakanDaging = true
 
 if (sukaMakanDaging) {
@@ -63,10 +65,24 @@ if (!sukaMakanDaging) {
   console.log("Suka makan daging")
 }
 
+// else if
 let usia = 11
 
 if (usia > 17) {
   console.log("Anda bisa membuat KTP")
 } else if (usia <= 17) {
   console.log("Anda belum bisa membuat KTP")
+}
+
+// for loop
+for (let kue = 3; kue >= 1; kue--) {
+  console.log("Kue sudah dibagikan, sisa kue adalah " + kue)
+}
+
+// while loop
+let angka = 1
+
+while (angka <= 5) {
+  console.log("hai" + angka)
+  angka++
 }

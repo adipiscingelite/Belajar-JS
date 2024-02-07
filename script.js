@@ -37,7 +37,15 @@ console.log(10 == 9)
 console.log(10 <= 9)
 console.log(9 <= 9)
 
-confirm("oke?")
-masukkan_nama = prompt("masukkan nama")
+// confirm("oke?")
+// masukkan_nama = prompt("masukkan nama")
 
-console.log(masukkan_nama)
+// console.log(masukkan_nama)
+
+let siswa = 34
+
+if (siswa = 34) {
+  console.log("Jumlah siswa adalah 34")
+} else {
+  console.log("Jumlah siswa bukan 34")
+}

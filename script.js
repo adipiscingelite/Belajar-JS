@@ -106,3 +106,21 @@ for (let i = 0; i < 20; i++) {
     break;
   }
 }
+
+
+// function
+function login(username) {
+  console.log("Selamat datang " + username)
+}
+
+login("budi")
+
+// scope
+let buku = 4000
+
+function harga() {
+  let pulpen = 2000
+  console.log(buku)
+}
+harga()
+console.log(pulpen)
